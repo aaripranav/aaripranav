@@ -1,23 +1,78 @@
-# Hi 👋 I'm Your Name
+# Hi 👋 I'm Aari Pranav
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=25&pause=1000&color=36BCF7&width=500&lines=Welcome+to+my+GitHub!;Learning+Web+Development;Learning+Open+Source;Always+Learning+New+Things)](https://git.io/typing-svg)
+🔐 Cyber Security Management Student
+
+🎓 MSc Cyber Security Management at Ravensbourne University London
+
+🌍 Based in London, UK
+
+💻 Network Technician with hands-on experience in network troubleshooting, system support, and security operations.
+
+---
 
 ## About Me
 
-- 🌱 Currently learning programming
-- 🚀 Building projects
-- 💻 Exploring GitHub
-<!--
-**aaripranav/aaripranav** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+- 🔭 Interested in Cyber Security, Threat Analysis and Incident Response
+- 🌱 Currently learning Security Monitoring and Automation
+- 🐍 Working with Python and Security Tools
+- 🛡️ Exploring Vulnerability Assessment and Ethical Hacking
+- ⚡ Passionate about solving real-world security challenges
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Skills
+
+### Cyber Security
+- Threat Analysis
+- Vulnerability Assessment
+- Incident Investigation
+- Risk Assessment
+- Network Security
+
+### Tools
+- Wireshark
+- Burp Suite
+- Metasploit
+- Nessus
+- Kali Linux
+- Git
+
+### Programming
+- Python
+- Java
+- C++
+- DBMS
+
+---
+
+## Projects
+
+### 🔐 23andMe Data Breach Analysis
+- Technical analysis
+- Incident response
+- Countermeasures
+- Recovery strategies
+
+### 🔍 Brute Force Attack Simulation
+- Burp Suite Intruder
+- Username Enumeration
+- Authentication Testing
+
+### 🔑 Password Security Analysis
+- John the Ripper
+- Dictionary Attacks
+- Password Auditing
+
+---
+
+## Certifications
+
+🏆 Cyber Security Professional Plus (CSPP)
+
+---
+
+## Connect With Me
+
+📧 aaripranav@gmail.com
+
+💼 LinkedIn: Add your LinkedIn profile link here
