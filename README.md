@@ -1,5 +1,12 @@
-## Hi there 👋
+# Hi 👋 I'm Your Name
 
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=25&pause=1000&color=36BCF7&width=500&lines=Welcome+to+my+GitHub!;Learning+Web+Development;Learning+Open+Source;Always+Learning+New+Things)](https://git.io/typing-svg)
+
+## About Me
+
+- 🌱 Currently learning programming
+- 🚀 Building projects
+- 💻 Exploring GitHub
 <!--
 **aaripranav/aaripranav** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
