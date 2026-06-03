@@ -75,13 +75,14 @@
         }
 
         h1 {
-            font-size: 3em;
+            font-size: 4.5em;
             margin-bottom: 10px;
             color: #00ff88;
             text-shadow: 0 0 20px rgba(0, 255, 136, 0.8);
             animation: glow-text 2s ease-in-out infinite;
             position: relative;
             z-index: 1;
+            font-weight: bold;
         }
 
         @keyframes glow-text {
@@ -519,6 +520,138 @@
             0%, 49% { opacity: 1; }
             50%, 100% { opacity: 0; }
         }
+
+        /* Profile Badges */
+        .badge {
+            display: inline-block;
+            padding: 8px 16px;
+            background: linear-gradient(135deg, rgba(0, 255, 136, 0.15), rgba(0, 255, 255, 0.1));
+            border: 1px solid rgba(0, 255, 136, 0.4);
+            border-radius: 20px;
+            color: #00ff88;
+            text-decoration: none;
+            font-size: 0.9em;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .badge:hover {
+            background: linear-gradient(135deg, rgba(0, 255, 136, 0.3), rgba(0, 255, 255, 0.15));
+            box-shadow: 0 0 15px rgba(0, 255, 136, 0.5);
+            transform: translateY(-2px);
+        }
+
+        /* Tech Stack Grid */
+        .tech-stack-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 15px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .tech-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px 15px;
+            background: linear-gradient(135deg, rgba(0, 255, 136, 0.08), rgba(0, 255, 255, 0.05));
+            border: 1px solid rgba(0, 255, 136, 0.3);
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            text-align: center;
+        }
+
+        .tech-item:hover {
+            background: linear-gradient(135deg, rgba(0, 255, 136, 0.15), rgba(0, 255, 255, 0.1));
+            border-color: rgba(0, 255, 136, 0.6);
+            box-shadow: 0 0 20px rgba(0, 255, 136, 0.4);
+            transform: translateY(-5px);
+        }
+
+        .tech-icon {
+            font-size: 2em;
+            margin-bottom: 8px;
+            display: block;
+        }
+
+        .tech-item span:last-child {
+            color: #00ff88;
+            font-size: 0.9em;
+            font-weight: bold;
+        }
+
+        /* Social Badges with Icons */
+        .social-badges {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin: 20px 0;
+            flex-wrap: wrap;
+        }
+
+        .social-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px 18px;
+            background: linear-gradient(135deg, rgba(0, 255, 136, 0.15), rgba(0, 255, 255, 0.1));
+            border: 1px solid rgba(0, 255, 136, 0.4);
+            border-radius: 25px;
+            color: #00ff88;
+            text-decoration: none;
+            font-size: 0.95em;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .social-badge:hover {
+            background: linear-gradient(135deg, rgba(0, 255, 136, 0.3), rgba(0, 255, 255, 0.15));
+            box-shadow: 0 0 20px rgba(0, 255, 136, 0.6);
+            transform: translateY(-3px);
+        }
+
+        .social-badge-icon {
+            font-size: 1.3em;
+        }
+
+        /* Time Display */
+        .time-display {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin: 20px 0;
+            flex-wrap: wrap;
+        }
+
+        .time-zone {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 15px 25px;
+            background: linear-gradient(135deg, rgba(0, 255, 136, 0.08), rgba(0, 255, 255, 0.05));
+            border: 1px solid rgba(0, 255, 136, 0.3);
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .time-zone-label {
+            color: #00ffff;
+            font-size: 0.85em;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        .time-zone-time {
+            color: #00ff88;
+            font-size: 1.3em;
+            font-weight: bold;
+            font-family: 'Courier New', monospace;
+            text-shadow: 0 0 10px rgba(0, 255, 136, 0.5);
+        }
     </style>
 </head>
 <body>
@@ -531,9 +664,48 @@
         <h1>🔐 AARI PRANAV</h1>
         <p class="subtitle">Cybersecurity Management Professional</p>
         <p class="tagline">MSc Cyber Security Management | London, UK</p>
+        
+        <div class="social-badges">
+            <a href="https://www.linkedin.com/in/aari-pranav-arunachalam-prabakaran-a0293116b" target="_blank" class="social-badge">
+                <span class="social-badge-icon">💼</span>
+                <span>LinkedIn</span>
+            </a>
+            <a href="mailto:aaripranav@gmail.com" class="social-badge">
+                <span class="social-badge-icon">📧</span>
+                <span>aaripranav@gmail.com</span>
+            </a>
+            <a href="https://github.com/aaripranav" target="_blank" class="social-badge">
+                <span class="social-badge-icon">💻</span>
+                <span>GitHub</span>
+            </a>
+        </div>
+
+        <div class="time-display">
+            <div class="time-zone">
+                <div class="time-zone-label">🇮🇳 India (IST)</div>
+                <div class="time-zone-time" id="india-time">--:--:--</div>
+            </div>
+            <div class="time-zone">
+                <div class="time-zone-label">🇬🇧 London (GMT)</div>
+                <div class="time-zone-time" id="london-time">--:--:--</div>
+            </div>
+        </div>
     </header>
 
     <div class="container">
+        <!-- Professional Summary -->
+        <section>
+            <h2>🌐 Portfolio</h2>
+            <p><strong><a href="https://aaripranav.vercel.app" target="_blank" style="color: #00ff88; text-decoration: none; text-shadow: 0 0 10px rgba(0, 255, 136, 0.5);">View My Interactive Profile</a></strong> - Professional cybersecurity portfolio with AI animations and interactive elements</p>
+            <p style="margin-top: 10px; color: rgba(0, 255, 136, 0.7);">📍 Live site: <a href="https://aaripranav.vercel.app" target="_blank" style="color: #00ff88; text-decoration: none;">https://aaripranav.vercel.app</a></p>
+        </section>
+
+        <!-- About Me Section -->
+        <section>
+            <h2>👤 About Me</h2>
+            <p>Cybersecurity Management Professional with MSc in Cyber Security Management from London, UK. Experienced in threat detection, penetration testing, and security analysis. Passionate about protecting digital assets and staying ahead of emerging security threats.</p>
+        </section>
+
         <!-- AI Character Section -->
         <section style="text-align: center;">
             <div class="ai-container">
@@ -556,29 +728,67 @@
             </div>
         </section>
 
-        <!-- Skills Section -->
+        <!-- Primary Tech Stack Section -->
         <section>
-            <h2>🛡️ Cybersecurity Toolkit</h2>
-            <div class="toolkit">
-                <span class="skill-tag">Wireshark</span>
-                <span class="skill-tag">Burp Suite</span>
-                <span class="skill-tag">Nessus</span>
-                <span class="skill-tag">Metasploit</span>
-                <span class="skill-tag">Kali Linux</span>
-                <span class="skill-tag">Threat Hunting</span>
-                <span class="skill-tag">SIEM</span>
-                <span class="skill-tag">Incident Response</span>
+            <h2>🛡️ Primary Cybersecurity Toolkit</h2>
+            <p style="color: rgba(0, 255, 136, 0.7); margin-bottom: 20px;">(Advanced tools & frameworks)</p>
+            <div class="tech-stack-grid">
+                <div class="tech-item">
+                    <span class="tech-icon">🔍</span>
+                    <span>Wireshark</span>
+                </div>
+                <div class="tech-item">
+                    <span class="tech-icon">💉</span>
+                    <span>Burp Suite</span>
+                </div>
+                <div class="tech-item">
+                    <span class="tech-icon">🔎</span>
+                    <span>Nessus</span>
+                </div>
+                <div class="tech-item">
+                    <span class="tech-icon">⚔️</span>
+                    <span>Metasploit</span>
+                </div>
+                <div class="tech-item">
+                    <span class="tech-icon">🐉</span>
+                    <span>Kali Linux</span>
+                </div>
+                <div class="tech-item">
+                    <span class="tech-icon">🎯</span>
+                    <span>Threat Hunting</span>
+                </div>
+                <div class="tech-item">
+                    <span class="tech-icon">📊</span>
+                    <span>SIEM Tools</span>
+                </div>
+                <div class="tech-item">
+                    <span class="tech-icon">🚨</span>
+                    <span>Incident Response</span>
+                </div>
             </div>
         </section>
 
-        <!-- Programming Section -->
+        <!-- Programming Languages -->
         <section>
             <h2>💻 Programming Languages</h2>
             <div class="toolkit">
-                <span class="skill-tag">Python</span>
-                <span class="skill-tag">Java</span>
-                <span class="skill-tag">C++</span>
-                <span class="skill-tag">SQL</span>
+                <span class="skill-tag">🐍 Python</span>
+                <span class="skill-tag">☕ Java</span>
+                <span class="skill-tag">⚙️ C++</span>
+                <span class="skill-tag">🗄️ SQL</span>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section>
+            <h2>🎯 Core Skills</h2>
+            <div class="toolkit">
+                <span class="skill-tag">Penetration Testing</span>
+                <span class="skill-tag">Vulnerability Assessment</span>
+                <span class="skill-tag">Network Security</span>
+                <span class="skill-tag">Security Analysis</span>
+                <span class="skill-tag">Risk Management</span>
+                <span class="skill-tag">Compliance</span>
             </div>
         </section>
 
@@ -603,42 +813,49 @@
 
         <!-- Certifications Section -->
         <section>
-            <h2>🏆 Certifications</h2>
+            <h2>🏆 Certifications & Achievements</h2>
             <div class="stats">
                 <div class="stat">
                     <div class="stat-number">✓</div>
                     <div class="stat-label">CSPP</div>
                 </div>
                 <div class="stat">
-                    <div class="stat-number">📚</div>
-                    <div class="stat-label">MSc Degree</div>
+                    <div class="stat-number">🎓</div>
+                    <div class="stat-label">MSc Cyber Security</div>
                 </div>
                 <div class="stat">
                     <div class="stat-number">🎯</div>
                     <div class="stat-label">Threat Hunting</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">📍</div>
+                    <div class="stat-label">London, UK</div>
                 </div>
             </div>
         </section>
 
         <!-- Currently Learning -->
         <section>
-            <h2>📖 Currently Learning</h2>
+            <h2>📖 Currently Learning (AI / Security & Systems)</h2>
             <div class="toolkit">
-                <span class="skill-tag">🎯 Threat Hunting</span>
-                <span class="skill-tag">📊 SIEM Tools</span>
-                <span class="skill-tag">⚙️ Security Automation</span>
-                <span class="skill-tag">🚨 Incident Response</span>
+                <span class="skill-tag">🤖 Machine Learning Security</span>
+                <span class="skill-tag">🔐 Cryptography</span>
+                <span class="skill-tag">☁️ Cloud Security</span>
+                <span class="skill-tag">📱 Mobile Security</span>
+                <span class="skill-tag">🛡️ Zero Trust Architecture</span>
+                <span class="skill-tag">🧠 AI Threat Detection</span>
             </div>
         </section>
 
         <!-- Contact Section -->
         <section style="text-align: center;">
-            <h2>🔗 Connect With Me</h2>
+            <h2>🔗 Let's Connect</h2>
+            <p style="margin-bottom: 20px; color: rgba(0, 255, 136, 0.8);">Reach out for cybersecurity collaborations, projects, or discussions</p>
             <div class="links">
-                <a href="#" class="link-btn">LinkedIn</a>
-                <a href="#" class="link-btn">GitHub</a>
-                <a href="#" class="link-btn">Email</a>
-                <a href="#" class="link-btn">Portfolio</a>
+                <a href="https://www.linkedin.com/in/aari-pranav-arunachalam-prabakaran-a0293116b" target="_blank" class="link-btn">💼 LinkedIn</a>
+                <a href="https://github.com/aaripranav" target="_blank" class="link-btn">💻 GitHub</a>
+                <a href="mailto:aaripranav@gmail.com" class="link-btn">📧 Email</a>
+                <a href="https://aaripranav.vercel.app" target="_blank" class="link-btn">🌐 Portfolio</a>
             </div>
         </section>
     </div>
@@ -708,6 +925,35 @@
                 this.style.backgroundColor = 'rgba(0, 255, 136, 0.05)';
             });
         });
+
+        // Update time display for India and London
+        function updateTime() {
+            const now = new Date();
+            
+            // India time (IST = UTC+5:30)
+            const indiaTime = new Date(now.toLocaleString('en-US', { timeZone: 'Asia/Kolkata' }));
+            const indiaHours = String(indiaTime.getHours()).padStart(2, '0');
+            const indiaMinutes = String(indiaTime.getMinutes()).padStart(2, '0');
+            const indiaSeconds = String(indiaTime.getSeconds()).padStart(2, '0');
+            const indiaDisplay = document.getElementById('india-time');
+            if (indiaDisplay) {
+                indiaDisplay.textContent = `${indiaHours}:${indiaMinutes}:${indiaSeconds}`;
+            }
+            
+            // London time (GMT/BST)
+            const londonTime = new Date(now.toLocaleString('en-US', { timeZone: 'Europe/London' }));
+            const londonHours = String(londonTime.getHours()).padStart(2, '0');
+            const londonMinutes = String(londonTime.getMinutes()).padStart(2, '0');
+            const londonSeconds = String(londonTime.getSeconds()).padStart(2, '0');
+            const londonDisplay = document.getElementById('london-time');
+            if (londonDisplay) {
+                londonDisplay.textContent = `${londonHours}:${londonMinutes}:${londonSeconds}`;
+            }
+        }
+        
+        // Update time immediately and then every second
+        updateTime();
+        setInterval(updateTime, 1000);
     </script>
 </body>
 </html>
