@@ -5,7 +5,9 @@
 
 ## 🌐 Portfolio
 
-**[View My Interactive Profile](https://aaripranav.github.io/)** - Professional cybersecurity portfolio with AI animations and interactive elements
+**[View My Interactive Profile](https://aaripranav.github.io/aaripranav/)** - Professional cybersecurity portfolio with AI animations and interactive elements
+
+> Live site: https://aaripranav.github.io/aaripranav/
 
 ## Connect
 
