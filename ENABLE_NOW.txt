@@ -1,0 +1,73 @@
+🚀 ENABLE GITHUB PAGES - EXACT 4-CLICK GUIDE
+
+Your profile code is 100% ready! Just need to flip ONE switch on GitHub.
+
+═══════════════════════════════════════════════════════════════
+
+⏱️  TIME: 30 seconds
+👆 CLICKS: Only 4 clicks needed
+✅ RESULT: Your live website
+
+═══════════════════════════════════════════════════════════════
+
+CLICK 1: Go to Your Repository
+─────────────────────────────
+Open in browser:
+https://github.com/aaripranav/aaripranav
+
+═══════════════════════════════════════════════════════════════
+
+CLICK 2: Open Settings Tab
+──────────────────────────
+Look at the TOP tabs:
+
+[Code] [Issues] [Pull requests] [Actions] [⚙️ Settings]
+                                           ↑
+                                    Click here
+
+
+═══════════════════════════════════════════════════════════════
+
+CLICK 3: Find Pages Section
+────────────────────────────
+On the LEFT sidebar, scroll down and find:
+
+📄 Pages  ← CLICK THIS
+
+
+═══════════════════════════════════════════════════════════════
+
+CLICK 4: Configure and Save
+────────────────────────────
+
+You'll see:
+
+┌─────────────────────────────────────┐
+│ Build and deployment                │
+│                                     │
+│ Source: Deploy from a branch ▼     │ ← This should be selected
+│                                     │
+│ Branch: main ▼                     │ ← Select "main"
+│ Folder: / (root) ▼                │ ← Select "/ (root)"
+│                                     │
+│        [Save]                       │ ← CLICK SAVE
+└─────────────────────────────────────┘
+
+═══════════════════════════════════════════════════════════════
+
+✅ DONE! 
+⏳ Wait 1-3 minutes for GitHub to deploy
+🎉 Visit: https://aaripranav.github.io/
+
+═══════════════════════════════════════════════════════════════
+
+What Happens After:
+
+1. GitHub reads your index.html
+2. Creates your website
+3. Deploys it to their servers
+4. Makes it live on the internet!
+
+Your animated cybersecurity profile will appear! 🚀
+
+═══════════════════════════════════════════════════════════════
