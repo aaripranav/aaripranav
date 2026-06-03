@@ -1,7 +1,11 @@
 # 👋 Hi, I'm Aari Pranav
 
-🔐 Cyber Security Management Student
+🔐 Cyber Security Management Professional
 🎓 MSc Cyber Security Management | London, UK
+
+## 🌐 Portfolio
+
+**[View My Interactive Profile](https://aaripranav.github.io/)** - Professional cybersecurity portfolio with AI animations and interactive elements
 
 ## Connect
 
